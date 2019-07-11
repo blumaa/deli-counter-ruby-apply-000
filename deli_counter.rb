@@ -6,7 +6,8 @@ def line(katz_deli)
   else
     the_line = "The line is currently:"
     # shovel onto the string the index. the element at the index
-      katz_deli.each_index do |i| the_line << "#{i}. #{katz_deli[i]}"
+      katz_deli.each_index do |i| 
+        the_line << "#{i}. #{katz_deli[i]}"
       end
       puts the_line
     end
