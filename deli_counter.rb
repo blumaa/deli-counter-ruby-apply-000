@@ -18,7 +18,7 @@ def take_a_number(katz_deli, persons_name)
   puts "Welcome, #{persons_name}. You are number #{katz_deli.count} in line."
 end
 
-def now_serving
+def now_serving(katz_deli)
   if katz_deli.none?
     puts "The line is currently empty."
   else
