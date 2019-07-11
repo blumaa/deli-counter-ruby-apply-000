@@ -20,7 +20,7 @@ end
 
 def now_serving
   if katz_deli.none?
-    puts "There is nobody waiting to be served!"
+    puts "The line is currently empty."
   else
   end
 end
