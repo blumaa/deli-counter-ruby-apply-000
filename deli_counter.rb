@@ -6,10 +6,6 @@ def line(katz_deli)
   else
       puts "The line is currently:" 
       katz_deli.each_index {|x| puts x, ". #{x}" }
-
-      katz_deli.each do |hello|
-      puts "The line is currently:  #{hello}"
-    end
   end
 end
 
