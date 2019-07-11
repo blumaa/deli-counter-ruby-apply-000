@@ -1,8 +1,8 @@
 katz_deli = []
 
-def line()
-  counter = 0
-  
+def line(katz_deli)
+  katz_deli.each do |line_number|
+    
 end
 
 def take_a_number(katz_deli, persons_name)
