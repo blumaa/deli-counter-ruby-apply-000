@@ -7,7 +7,7 @@ def line(katz_deli)
     the_line = "The line is currently:"
     # shovel onto the string the index. the element at the index
       katz_deli.each_index do |i| 
-        the_line << "#{i + 1}. #{katz_deli[i]}"
+        the_line << " #{i + 1}. #{katz_deli[i]}"
       end
       puts the_line
     end
